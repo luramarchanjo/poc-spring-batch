@@ -14,10 +14,17 @@
     <artifactId>poc-spring-batch</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>${project.artifactId}</name>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>14</java.version>
     </properties>
+
+    <modules>
+        <module>flow</module>
+        <module>job</module>
+        <module>split</module>
+    </modules>
 
     <dependencies>
 
