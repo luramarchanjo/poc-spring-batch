@@ -58,8 +58,6 @@ public class DeciderConfiguration {
                 .from(oddDecider).on("EVEN").to(evenStep())
                 // Start again to test the EVEN step
                 .from(oddStep()).on("*").to(oddDecider)
-                .from(oddDecider).on("ODD").to(oddStep())
-                .from(oddDecider).on("EVENT").to(evenStep())
                 .end()
                 .build();
     }
