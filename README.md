@@ -18,3 +18,6 @@ There are two types of steps:
 
 * Tasklet: 
 * Chunk: 
+
+### Decider
+
