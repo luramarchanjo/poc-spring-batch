@@ -29,7 +29,7 @@ There are two types of steps:
 
 2º After install Docker, run the command below:
 
-`docker run -d --restart=always --net=host --name=mysql -e MYSQL_ROOT_PASSWORD=1234567890 mysql:8.0.21`
+`docker run -d --net=host --name=mysql -e MYSQL_ROOT_PASSWORD=1234567890 mysql:8.0.21`
 
 # Testing
 
