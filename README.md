@@ -27,7 +27,7 @@ There are two types of steps:
 
 1º Install [Docker](https://docs.docker.com/get-docker/)
 
-2º After install Docker, run the command below:
+2º After install Docker, we need to install MySQL, to do that, run the command below:
 
 `docker run -d --net=host --name=mysql -e MYSQL_ROOT_PASSWORD=1234567890 mysql:8.0.21`
 
