@@ -1,5 +1,7 @@
 # Overview
 
+This is a proof of concept (POC) using [Spring Batch](https://spring.io/projects/spring-batch).
+
 ## Use case
 
 ## Definitions
